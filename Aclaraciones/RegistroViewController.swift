@@ -92,7 +92,7 @@ class RegistroViewController: UIViewController {
     
     func guardarCredenciales() {
         // create an instance of our managedObjectContext
-        DBManager.instance.guardarCredenciales("CredencialesEntity",nombreEntidad2: "TarjetasEntity",contra:contra!, correo:correo!, numero:numero!, alias:tarjeta3!.alias, tarjeta:tarjeta3!.prefijo + tarjeta3!.numero + "..", tipo:tarjeta3!.tipo)
+        DBManager.instance.guardarCredenciales("CredencialesEntity",nombreEntidad2: "TarjetasEntity",contra:contra!, correo:correo!, numero:numero!, alias:tarjeta3!.alias, tarjeta:tarjeta3!.prefijo + tarjeta3!.numero, tipo:tarjeta3!.tipo)
     }
     
     
@@ -147,7 +147,7 @@ class RegistroViewController: UIViewController {
         // Pass the selected object to the new view controller.
         let navCtrl = segue.destinationViewController as! UINavigationController
         let destino = navCtrl.topViewController as! ViewController
-        destino.tarjeta = (tarjeta3?.prefijo)!  + (tarjeta3?.numero)!
+        destino.usuario = self.correo!//(tarjeta3?.prefijo)!  + (tarjeta3?.numero)!
         
     }
     

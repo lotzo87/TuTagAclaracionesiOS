@@ -234,12 +234,12 @@
                   moduleName = "Aclaraciones"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/LoginViewController.swift"
-                  timestampString = "506585007.102356"
+                  timestampString = "506839014.062157"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "92">
+                  offsetFromSymbolStart = "80">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -249,12 +249,12 @@
                   moduleName = "Aclaraciones"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/LoginViewController.swift"
-                  timestampString = "506585007.102568"
+                  timestampString = "506839014.062357"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "196">
+                  offsetFromSymbolStart = "172">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -264,12 +264,12 @@
                   moduleName = "Aclaraciones"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/LoginViewController.swift"
-                  timestampString = "506585007.102801"
+                  timestampString = "506839014.062542"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "260">
+                  offsetFromSymbolStart = "173">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -279,12 +279,12 @@
                   moduleName = "Aclaraciones"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/LoginViewController.swift"
-                  timestampString = "506585007.103027"
+                  timestampString = "506839014.06273"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "18"
                   endingLineNumber = "18"
-                  offsetFromSymbolStart = "216">
+                  offsetFromSymbolStart = "132">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -365,7 +365,7 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "50"
             endingLineNumber = "50"
-            landmarkName = "encuentraTodosLos(_:_:)"
+            landmarkName = "guardarCredenciales(_:nombreEntidad2:contra:correo:numero:alias:tarjeta:tipo:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -381,8 +381,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "65"
             endingLineNumber = "65"
-            landmarkName = "managedObjectContext"
-            landmarkType = "19">
+            landmarkName = "DBManager"
+            landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -397,70 +397,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "64"
             endingLineNumber = "64"
-            landmarkName = "managedObjectContext"
-            landmarkType = "19">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.init () -&gt; Aclaraciones.DBManager"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.108333"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "20">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.managedObjectContext.getter : Swift.Optional&lt;__ObjC.NSManagedObjectContext&gt;"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.108516"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "288">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.managedObjectContext.setter : Swift.Optional&lt;__ObjC.NSManagedObjectContext&gt;"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.10869"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "64"
-                  endingLineNumber = "64"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.(managedObjectContext.getter : Swift.Optional&lt;__ObjC.NSManagedObjectContext&gt;).(closure #1)"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.108897"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "65"
-                  endingLineNumber = "65"
-                  offsetFromSymbolStart = "16">
-               </Location>
-            </Locations>
+            landmarkName = "guardarCredenciales(_:nombreEntidad2:contra:correo:numero:alias:tarjeta:tipo:)"
+            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -475,70 +413,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "73"
             endingLineNumber = "73"
-            landmarkName = "managedObjectModel"
+            landmarkName = "managedObjectContext"
             landmarkType = "19">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.init () -&gt; Aclaraciones.DBManager"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.110196"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.managedObjectModel.getter : Swift.Optional&lt;__ObjC.NSManagedObjectModel&gt;"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.110372"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "288">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.managedObjectModel.setter : Swift.Optional&lt;__ObjC.NSManagedObjectModel&gt;"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.110526"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "73"
-                  endingLineNumber = "73"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.(managedObjectModel.getter : Swift.Optional&lt;__ObjC.NSManagedObjectModel&gt;).(closure #1)"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.1107"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "74"
-                  endingLineNumber = "74"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -553,70 +429,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "78"
             endingLineNumber = "78"
-            landmarkName = "persistentStore"
+            landmarkName = "managedObjectModel"
             landmarkType = "19">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.init () -&gt; Aclaraciones.DBManager"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.112081"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "44">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.persistentStore.getter : Swift.Optional&lt;__ObjC.NSPersistentStoreCoordinator&gt;"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.112251"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "288">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.persistentStore.setter : Swift.Optional&lt;__ObjC.NSPersistentStoreCoordinator&gt;"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.112402"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "78"
-                  endingLineNumber = "78"
-                  offsetFromSymbolStart = "72">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.(persistentStore.getter : Swift.Optional&lt;__ObjC.NSPersistentStoreCoordinator&gt;).(closure #1)"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.112571"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "79"
-                  endingLineNumber = "79"
-                  offsetFromSymbolStart = "20">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -631,70 +445,8 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "97"
             endingLineNumber = "97"
-            landmarkName = "directorioDocuments"
+            landmarkName = "persistentStore"
             landmarkType = "19">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.init () -&gt; Aclaraciones.DBManager"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.113905"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
-                  offsetFromSymbolStart = "56">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.directorioDocuments.getter : __ObjC.NSURL"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.114057"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
-                  offsetFromSymbolStart = "224">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.directorioDocuments.setter : __ObjC.NSURL"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.1142"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "97"
-                  endingLineNumber = "97"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.DBManager.(directorioDocuments.getter : __ObjC.NSURL).(closure #1)"
-                  moduleName = "Aclaraciones"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/DBManager.swift"
-                  timestampString = "506585007.114346"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "98"
-                  endingLineNumber = "98"
-                  offsetFromSymbolStart = "12">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -787,25 +539,9 @@
             timestampString = "506584826.378484"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
-            landmarkName = "consultaTarjetas()"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Aclaraciones/ViewController.swift"
-            timestampString = "506584826.378484"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
             startingLineNumber = "93"
             endingLineNumber = "93"
-            landmarkName = "consultaTarjetas()"
+            landmarkName = "consultaMovimientos()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -844,31 +580,31 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.ViewController.credenciales.getter : Swift.Optional&lt;__ObjC.NSArray&gt;"
+                  symbolName = "Aclaraciones.ViewController.credenciales.getter : Swift.Optional&lt;__ObjC.NSDictionary&gt;"
                   moduleName = "Aclaraciones"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/ViewController.swift"
-                  timestampString = "506585007.120254"
+                  timestampString = "506839014.076219"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
-                  offsetFromSymbolStart = "48">
+                  offsetFromSymbolStart = "35">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Aclaraciones.ViewController.credenciales.setter : Swift.Optional&lt;__ObjC.NSArray&gt;"
+                  symbolName = "Aclaraciones.ViewController.credenciales.setter : Swift.Optional&lt;__ObjC.NSDictionary&gt;"
                   moduleName = "Aclaraciones"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/ViewController.swift"
-                  timestampString = "506585007.120419"
+                  timestampString = "506839014.07639"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
-                  offsetFromSymbolStart = "76">
+                  offsetFromSymbolStart = "65">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -878,12 +614,12 @@
                   moduleName = "Aclaraciones"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/ViewController.swift"
-                  timestampString = "506585007.1206"
+                  timestampString = "506839014.076587"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
-                  offsetFromSymbolStart = "140">
+                  offsetFromSymbolStart = "72">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
@@ -893,12 +629,12 @@
                   moduleName = "Aclaraciones"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/victor/XCodeProjects/Aclaraciones/Aclaraciones/ViewController.swift"
-                  timestampString = "506585007.120761"
+                  timestampString = "506839014.076819"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "20"
                   endingLineNumber = "20"
-                  offsetFromSymbolStart = "96">
+                  offsetFromSymbolStart = "31">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -1044,6 +780,118 @@
             startingLineNumber = "38"
             endingLineNumber = "38"
             landmarkName = "consultaTarjetas(_:filtradosPor:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aclaraciones/DBManager.swift"
+            timestampString = "506821207.2579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "persistentStore"
+            landmarkType = "19">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aclaraciones/DBManager.swift"
+            timestampString = "506821210.669401"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "85"
+            endingLineNumber = "85"
+            landmarkName = "persistentStore"
+            landmarkType = "19">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aclaraciones/DBManager.swift"
+            timestampString = "506821214.645512"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "persistentStore"
+            landmarkType = "19">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aclaraciones/DBManager.swift"
+            timestampString = "506821361.487308"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "guardarCredenciales(_:nombreEntidad2:contra:correo:numero:alias:tarjeta:tipo:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aclaraciones/ViewController.swift"
+            timestampString = "506821891.666874"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "consultaTarjetas()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aclaraciones/DBManager.swift"
+            timestampString = "506822162.933982"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "consultaTarjetas(_:filtradosPor:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Aclaraciones/ViewController.swift"
+            timestampString = "506838932.917282"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "consultaMovimientos()"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -17,8 +17,8 @@ class MovimientoTableViewCell: UITableViewCell{
 }
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-    var credenciales:NSArray?
-    var correo:String?
+    var credenciales:NSDictionary?
+    var usuario:String?
     var tarjeta2:NSArray?
     var tarjeta: String?
     var movimientos:NSArray?
@@ -75,27 +75,27 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     func consultaMovimientos() {
         //let urlString = "http://151.1.8.113/WebTuTag/TuTagBackEnd.asmx/GetMovientosTagJsom?tagId=\(tarjeta)&fechaInicio=01/01/2015&fechaFin=01/12/2016"
         //IMDM21811688
-        var tag:String=""
-        if tarjeta2 != nil
+        if tarjeta2?.count > 0
         {
-            tag = (tarjeta2?.valueForKey("tarjeta"))! as! String
-        }
-        let urlString = "http://200.57.36.4/WebTuTag/TuTagBackEnd.asmx/GetMovientosTagJsom?tagId=\(tag)&&fechaInicio=01/01/2015&&fechaFin=01/12/2016"
-        let laURL = NSURL(string: urlString)!
-        let elRequest = NSURLRequest(URL: laURL)
-        self.datosRecibidos = NSMutableData(capacity: 0)
-        self.conexion = NSURLConnection(request: elRequest, delegate: self, startImmediately: true)
-        if self.conexion == nil {
-            self.datosRecibidos = nil
-            self.conexion = nil
-            print ("No se puede acceder al WS WebTuTag")
+            let tag = tarjeta2![0].valueForKey("tarjeta") as! String
+            //let ffin = NSDate()
+            let urlString = "http://200.57.36.4/WebTuTag/TuTagBackEnd.asmx/GetMovientosTagJsom?tagId=\(tag)&&fechaInicio=01/01/2015&&fechaFin=01/12/2016"
+            let laURL = NSURL(string: urlString)!
+            let elRequest = NSURLRequest(URL: laURL)
+            self.datosRecibidos = NSMutableData(capacity: 0)
+            self.conexion = NSURLConnection(request: elRequest, delegate: self, startImmediately: true)
+            if self.conexion == nil {
+                self.datosRecibidos = nil
+                self.conexion = nil
+                print ("No se puede acceder al WS WebTuTag")
+            }
         }
        
     }
     
     func consultaTarjetas()
     {
-        self.tarjeta2 = DBManager.instance.consultaTarjetas("TarjetasEntity", filtradosPor:NSPredicate(format: "ANY credenciales.correo LIKE %@", correo!))
+        self.tarjeta2 = DBManager.instance.consultaTarjetas("TarjetasEntity", filtradosPor:NSPredicate(format: "ANY credenciales.correo LIKE %@", usuario!))
     }
     
     func connection(connection: NSURLConnection, didFailWithError error: NSError) {

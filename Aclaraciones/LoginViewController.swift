@@ -12,7 +12,7 @@ import CoreData
 class LoginViewController: UIViewController {
 
     var credenciales:NSDictionary?
-    var credencialesInfo:NSArray?
+    //var credencialesInfo:NSArray?
     var conexion:NSURLConnection?
     var datosRecibidos:NSMutableData?
     var usuario:String?
@@ -75,7 +75,7 @@ class LoginViewController: UIViewController {
         if (credenciales != nil){
             let acceso = (credenciales!)
             if ((acceso["Login"] as! NSNumber) == 1){
-                self.recuperarCredenciales();
+                //self.recuperarCredenciales();
                 performSegueWithIdentifier("AccesoSegue", sender: self)
             }
             else{
@@ -124,15 +124,15 @@ class LoginViewController: UIViewController {
         if (segue.identifier == "AccesoSegue"){
             let navCtrl = segue.destinationViewController as! UINavigationController
             let destino = navCtrl.topViewController as! ViewController
-            destino.credenciales = credencialesInfo
-            destino.correo = usuario
+            destino.usuario = self.usuario!
         }
 
     }
     
+    /*
     func recuperarCredenciales() {
         self.credencialesInfo = DBManager.instance.consultaCredenciales("CredencialesEntity", filtradosPor:NSPredicate(format: "correo=%@ AND contrasena=%@", usuario!, contra!))
     }
-    
+    */
 
 }
